@@ -1,0 +1,146 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e6e6e6; /* Cambia el color de fondo de la página web a gris al 10% */
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: right; /* Alinea el menú a la derecha */
+    padding-right: 10%; /* Aleja el menú del margen derecho un 10% del ancho total */
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+#contenido-principal {
+    display: flex;
+}
+
+
+#texto {
+    flex: 1;
+    padding-left: 10%; /* Añade un margen izquierdo del 10% del ancho total al párrafo */
+}
+
+#texto h1 {
+    font-size: 36px; /* Ajusta el tamaño del texto del primer párrafo a 36px */
+}
+
+#texto p {
+    font-size: 14px; /* Ajusta el tamaño del texto del segundo párrafo a 14px */
+}
+
+#imagen {
+    flex: 1;
+}
+
+#redes-sociales {
+    margin-top: 20px;
+    margin-left: 10%; /* Añade un margen izquierdo del 10% del ancho total */
+    margin-right: 10%; /* Añade un margen derecho del 10% del ancho total */
+
+}
+
+#sobre-mi {
+    background-color: #add8e6; /* Cambia el color de fondo a celeste */
+    color: #000; /* Cambia el color del texto a negro */
+    padding: 20px; /* Añade un poco de espacio alrededor del texto */
+}
+
+#sobre-mi h2{
+    margin-left: 10%; /* Añade un margen izquierdo del 10% del ancho total */
+    margin-right: 10%; /* Añade un margen derecho del 10% del ancho total */
+}
+
+#sobre-mi p{
+    margin-left: 10%; /* Añade un margen izquierdo del 10% del ancho total */
+    margin-right: 10%; /* Añade un margen derecho del 10% del ancho total */
+}
+
+#skills {
+    background-color: #d3d3d3; /* Cambia el color de fondo a gris al 10% */
+    text-align: center; /* Centra el texto */
+    padding: 20px; /* Añade un poco de espacio alrededor del texto */
+
+}
+
+#imagenes-skills {
+    display: flex;
+    justify-content: center; /* Centra las imágenes */
+    margin-left: 10%; /* Añade un margen izquierdo del 10% del ancho total */
+    margin-right: 10%; /* Añade un margen derecho del 10% del ancho total */
+    padding: 10px; /* Añade un poco de espacio alrededor */
+
+}
+
+#hobbies {
+    background-color: #d3d3d3; /* Cambia el color de fondo a gris al 10% */
+    text-align: center; /* Centra el texto */
+    padding: 20px; /* Añade un poco de espacio alrededor del texto */
+
+}
+
+#hobbies h2 {
+    background-color: #d3d3d3; /* Cambia el color de fondo a gris al 10% */
+    text-align: center; /* Centra el texto */
+    padding: 10px; /* Añade un poco de espacio alrededor del texto */
+
+}
+
+#hobbies-img {
+    display: flex;
+    justify-content: center; /* Centra las imágenes */
+    margin-left: 10%; /* Añade un margen izquierdo del 10% del ancho total */
+    margin-right: 10%; /* Añade un margen derecho del 10% del ancho total */
+    padding: 6px; /* Añade un poco de espacio alrededor */
+
+}
+
+#formacion-acad {
+    background-color: #add8e6; /* Cambia el color de fondo a celeste */
+    text-align: center; /* Centra el texto */
+    padding: 20px; /* Añade un poco de espacio alrededor del texto */
+
+}
+
+#formacion-acad-img {
+    display: flex;
+    justify-content: center; /* Centra las imágenes */
+    margin-left: 10%; /* Añade un margen izquierdo del 10% del ancho total */
+    margin-right: 10%; /* Añade un margen derecho del 10% del ancho total */
+    padding: 6px; /* Añade un poco de espacio alrededor */
+
+}
+
+
+#experiencia-profesional {
+    background-color: #d3d3d3; /* Cambia el color de fondo a gris al 10% */
+    padding: 20px; /* Añade un poco de espacio alrededor del texto */
+    margin-left: 10%; /* Añade un margen izquierdo del 10% del ancho total */
+    margin-right: 10%; /* Añade un margen derecho del 10% del ancho total */
+    justify-content: center; /* Centra el contenido */
+}
+
+#divisiones {
+    display: flex; /* Añade flexbox para que las divisiones estén en la misma línea */
+    justify-content: center;
+    align-items: center;
+}
+
+#division-izquierda {
+    background-color: #b3b3b3; /* Cambia el color de fondo a gris al 15% */
+    flex: 1; /* Asegura que las divisiones tomen el mismo espacio */
+}
+
+#imagenes-izquierda {
+    display: flex;
+    justify-content: space-between; /* Separa las imágenes */
+}
+
+#division-derecha {
+    background-color: #d3d3d3; /* Cambia el color de fondo a gris al 10% */
+    flex: 1; /* Asegura que las divisiones tomen el mismo espacio */
+}
